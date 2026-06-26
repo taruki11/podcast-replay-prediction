@@ -1,0 +1,87 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+*.egg-info/
+dist/
+build/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+*.ipynb
+
+# Data files - raw
+data/Iftech/dataset_algo2025/*.csv
+
+# Data files - intermediate
+*.parquet
+*.pkl
+*.npy
+*.npz
+
+# Model files
+*.model
+*.bin
+*.pth
+checkpoints/
+models/
+
+# Results (large files and intermediate results)
+# result.csv - 提交文件，不忽略
+results/
+oof_predictions.csv
+*_oof.csv
+*_result.csv
+feature_importance.csv
+xgb_feature_importance.csv
+
+# Logs
+*.log
+logs/
+train_log*.txt
+train_err.txt
+deepfm_train_log.txt
+fm_train_log.txt
+xgb_train_log.txt
+analysis_log.txt
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# WorkBuddy
+.workbuddy/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.bak
+*.backup
+
+# Compiled files
+*.c
+*.o
+*.exe
+*.dll
+
+# HTML previews (if generated)
+data_preview.html
+launch.py
+run.bat
+
+# Old versions
+old_versions/
